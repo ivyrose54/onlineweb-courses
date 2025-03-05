@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("https://github.com/ivyrose54/onlineweb-courses/blob/main/courses.json") // Replace with your actual URL
+    fetch("https://raw.githubusercontent.com/ivyrose54/onlineweb-courses/main/courses.json") // Replace with your actual URL
         .then(response => response.json())
         .then(data => {
             let subjectsList = document.getElementById("subjects-list");
